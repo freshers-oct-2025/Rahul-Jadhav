@@ -3,8 +3,8 @@ console.log("customer button clicked");
 document.getElementById("images").addEventListener("click", loadImages);
 console.log("images button clicked");
 
-async function loadCustomer() {
-  await fetch("https://playground.mockoon.com/customers")
+function loadCustomer() {
+  fetch("https://playground.mockoon.com/customers")
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
@@ -18,7 +18,9 @@ async function loadCustomer() {
                     <td>${customer.name}</td>
                     <td>${customer.email}</td>
                     <td>${customer.phone}</td>
+                </tr>
             `;
+
         tableBody.innerHTML = tableBody.innerHTML + row;
       });
     })
