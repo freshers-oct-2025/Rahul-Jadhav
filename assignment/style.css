@@ -1,0 +1,32 @@
+#buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  justify-items: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+#customer-container {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#image-container {
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#heading {
+  text-align: center;
+}
+
+body {
+  background-color: antiquewhite;
+}
