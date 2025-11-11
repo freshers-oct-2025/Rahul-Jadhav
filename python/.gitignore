@@ -1,0 +1,20 @@
+# --- Ignore virtual environment ---
+pyenv1/
+
+# --- Ignore Python cache and compiled files ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Ignore environment or config files ---
+.env
+*.env
+
+# --- Ignore VS Code and IDE settings ---
+.vscode/
+.idea/
+
+# --- Ignore OS-specific files ---
+.DS_Store
+Thumbs.db
