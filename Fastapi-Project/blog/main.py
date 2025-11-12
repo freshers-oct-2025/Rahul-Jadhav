@@ -98,4 +98,5 @@ def get_user(id:int,db:Session=Depends(get_db)):
 
     
 
-    
+# def display():
+#     request
