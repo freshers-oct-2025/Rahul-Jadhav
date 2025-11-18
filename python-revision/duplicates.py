@@ -1,0 +1,9 @@
+
+def remove_duplicates(text):
+    result = ""
+    for char in text:
+        if char not in result:
+            result += char
+    return result
+
+print(remove_duplicates("aabbccddeeff"))
