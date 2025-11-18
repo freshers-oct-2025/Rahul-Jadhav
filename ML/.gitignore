@@ -1,0 +1,72 @@
+# ----------------------------
+# Python & FastAPI Ignore
+# ----------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pytest cache
+.pytest_cache/
+
+# SQLite databases (optional — remove if you want DB in git)
+*.db
+*.sqlite
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+ml-env/
+.venv/
+
+# FastAPI generated files
+*.log
+
+# ----------------------------
+# Environment / Secrets
+# ----------------------------
+
+.env
+*.env
+.env.*
+
+# ----------------------------
+# VSCode / Editors
+# ----------------------------
+
+.vscode/
+.idea/
+
+# ----------------------------
+# Build system
+# ----------------------------
+
+build/
+dist/
+wheelhouse/
+*.egg-info/
+*.egg
+
+# ----------------------------
+# OS Specific
+# ----------------------------
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
