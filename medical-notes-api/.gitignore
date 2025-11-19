@@ -1,0 +1,73 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# =====================
+# Virtual Environment
+# =====================
+venv/
+ml-env/
+ENV/
+.venv/
+
+# =====================
+# IDE / Editor Files
+# =====================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =====================
+# Logs
+# =====================
+*.log
+logs/
+
+# =====================
+# Settings / Credentials
+# =====================
+.env
+*.env
+
+# =====================
+# Databases (SQLite etc.)
+# =====================
+*.db
+*.sqlite3
+
+# =====================
+# Bytecompiled / compiled files
+# =====================
+*.so
+*.dll
+*.dylib
+
+# =====================
+# OS / System files
+# =====================
+.DS_Store
+Thumbs.db
+
+# =====================
+# Testing
+# =====================
+.coverage
+pytest_cache/
+htmlcov/
+
+# =====================
+# Ollama
+# =====================
+ollama/
+
